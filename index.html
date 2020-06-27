@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Platform to showcase Andrew Rotert's published software, personal projects, and resume. Andrew has seven published apps, across iOS and Android platforms. Visit the website to learn more.">
+    <meta name="keywords" content="developer, Andrew Rotert, software, DSU, dakota state university, android, published, engineering, iOS, projects, development, web, personal, website">
+    <meta name="author" content="Andrew Rotert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sample Navigation | Home</title>
+
+</head>
+<body>
+
+    <style>        /*Styles not used by the navigation bar.*/
+        html {
+            color: #131313; 
+        }
+
+        body {
+            margin: auto;
+            width: 90%;
+            height: 100%;
+            padding: 1em;
+            border: 5px groove #022E6D;
+            background-color: #DCDCDC;
+        }
+
+        hr.nav {
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 5px;
+            border: solid #022E6D;
+        }
+    </style>
+
+    <hr class="nav" />
+    <nav id="nav-placeholder"></nav>
+    <hr class="nav" />
+
+    <center>
+        <h1>Sample navigation bar.</h1>
+        <br />
+        <h1><a href="DevelopedNotDownloaded.com">For help visit: DevelopedNotDownloaded.com</a></h1>
+        <br />
+        <h1>- Built using React</h1>
+        <br />
+        <h1>- Responsive Design</h1>
+        <br />
+        <h1>- Easy To Modify</h1>
+        <br />
+        <h1>- Modern Design</h1>
+        <br />
+        <h1>- Sticks to the top of the webpage</h1>
+        <br />
+        <h1>- Developed By: Andrew Rotert</h1>
+        <br />
+        <h1>- Scroll to test.</h1>
+        <br />
+        <h1>- Resize the window to test.</h1>
+        <br />
+        <h1>- Hosted on github.</h1>
+    </center>
+
+    <!-- Load React. -->
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script type="text/babel" src="reactnav.js"></script>
+</body>
+</html>
