@@ -1,5 +1,6 @@
 # React Navigation Bar
 Responsive navigation bar built using react JS.
+
 View with github hosting: https://ajrotert.github.io/ReactNavigationBar/index
 ## HOW TO USE
 ### THREE STEPS
